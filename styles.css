@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "popins", sans-serif;
+}
+
+.container {
+ width : 100%;
+ min-height: 100vh;
+  background: #0d063f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#left, #right {
+  width : 300px;
+  min-height: 400px;
+  margin: 20px;
+  border: 2px dashed #fff;
+  border-radius: 9px;
+}
+.list{
+  background: #e91e63;
+  height: 60px;
+  margin: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+  border-radius: 5px;
+  box-shadow: 0 0 0 transparent;
+  transition: box-shadow 0.3s ease;
+}
+.list:hover{
+  background: #f44336;
+  box-shadow: 0 0 5px 2px white;
+}
+.list>p{
+  margin-left: 20px;
+}
+
+/* Button styling */
+.button {
+  /* Set initial box shadow */
+  box-shadow: 0 0 0 transparent;
+  transition: box-shadow 0.3s ease;
+  /* Other button styles */
+  background-color: #a04f4f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+/* Hover effect */
+.button:hover {
+  /* Apply white shadow */
+  box-shadow: 0 0 5px 2px white;
+}
